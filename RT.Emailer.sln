@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Emailer", "Src\RT.Emailer.csproj", "{BCC65A2E-8BE0-4EA7-9CCA-4CC453BCE3D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Emailer.Tests", "Tests\RT.Emailer.Tests.csproj", "{CF31F395-EFFC-438B-AEDD-91C98CEF2ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC65A2E-8BE0-4EA7-9CCA-4CC453BCE3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC65A2E-8BE0-4EA7-9CCA-4CC453BCE3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC65A2E-8BE0-4EA7-9CCA-4CC453BCE3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC65A2E-8BE0-4EA7-9CCA-4CC453BCE3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF31F395-EFFC-438B-AEDD-91C98CEF2ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF31F395-EFFC-438B-AEDD-91C98CEF2ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF31F395-EFFC-438B-AEDD-91C98CEF2ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF31F395-EFFC-438B-AEDD-91C98CEF2ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DAEDDF-02A0-4831-8894-E35CF959461F}
+	EndGlobalSection
+EndGlobal

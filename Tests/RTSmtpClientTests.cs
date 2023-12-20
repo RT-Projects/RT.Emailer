@@ -1,12 +1,11 @@
 ﻿using System.Net.Mail;
-using NUnit.Framework;
+using Xunit;
 
-namespace RT.Util;
+namespace RT.Emailer.Tests;
 
-[TestFixture]
 public sealed class RTSmtpClientTests
 {
-    [Test]
+    [Fact]
     public void TestEncodeHeader()
     {
         test(
@@ -52,6 +51,6 @@ public sealed class RTSmtpClientTests
 
     private void test(string actual, string expected)
     {
-        Assert.AreEqual(expected, actual);
+        Assert.Equal(expected, actual);
     }
 }

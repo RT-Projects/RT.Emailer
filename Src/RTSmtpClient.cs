@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using System.IO;
 using System.Net.Mail;
 using System.Net.Security;
 using System.Net.Sockets;
@@ -7,9 +6,10 @@ using System.Text;
 using System.Text.RegularExpressions;
 using RT.Serialization;
 using RT.Serialization.Settings;
+using RT.Util;
 using RT.Util.ExtensionMethods;
 
-namespace RT.Util;
+namespace RT.Emailer;
 
 /// <summary>Encapsulates an error condition that occurred during an SMTP exchange.</summary>
 public sealed class RTSmtpException : Exception
