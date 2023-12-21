@@ -51,6 +51,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: RT.Emailer-v${{env.VER}}
+          name: RT.Emailer-v${{env.VER_NUM}}
           path: Publish
           if-no-files-found: error

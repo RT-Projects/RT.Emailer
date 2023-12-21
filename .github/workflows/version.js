@@ -14,7 +14,7 @@ module.exports = ({ context, github, firstRev }) => {
         template = template.replaceAll("$(GitSha6)", String(process.env.GITHUB_SHA).substring(0, 6).toLowerCase());
         template = template.replaceAll("$(GitSha8)", String(process.env.GITHUB_SHA).substring(0, 8).toLowerCase());
         template = template.replaceAll("$(GitBranch)", context.ref.replace('refs/heads/', ''));
-        template = template.replaceAll("$(RunNumber)", String(Number(process.env.GITHUB_RUN_NUMBER) - 1));
+        template = template.replaceAll("$(RunNumber)", String(process.env.GITHUB_RUN_NUMBER));
         return template;
     }
 
